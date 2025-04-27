@@ -1,6 +1,6 @@
-train: /content/datasets/tomat-disease/train/images
-val: /content/datasets/tomat-disease/valid/images
-test: /content/datasets/tomat-disease/test/images
+train: /content/tomat-disease/train/images
+val: /content/tomat-disease/valid/images
+test: /content/tomat-disease/test/images
 
 nc: 6
 names: ['Anthrocnose', 'Bacterial_Spot', 'Botrytis', 'Healthy', 'fruitworm_bore', 'tomato_cracking']
