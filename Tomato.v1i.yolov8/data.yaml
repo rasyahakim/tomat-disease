@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Anthrocnose', 'Bacterial_Spot', 'Botrytis', 'Healthy', 'fruitworm_bore', 'tomato_cracking']
+
+roboflow:
+  workspace: rasyahakim
+  project: tomato-w4fvj-iui9e
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rasyahakim/tomato-w4fvj-iui9e/dataset/1
